@@ -1,0 +1,13 @@
+{
+  "restartable": "rs",
+  "verbose": true,
+  "watch": [
+    "src/"
+  ],
+  "ignore": [
+    "out/",
+    "node_modules/"
+  ],
+  "delay": "1000",
+  "ext": "js"
+}

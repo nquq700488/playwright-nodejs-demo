@@ -1,0 +1,17 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --config nodemon.json",
+    "login": "playwright codegen --save-storage=src/auth.json https://juejin.cn/",
+    "load": "playwright codegen --load-storage=src/auth.json https://juejin.cn/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.22",
+    "playwright": "^1.32.0"
+  }
+}
